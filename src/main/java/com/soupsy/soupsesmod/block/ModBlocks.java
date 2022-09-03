@@ -28,7 +28,7 @@ public class ModBlocks {
     }
 
     public static void registerModBlock() {
-        SoupsesMod.LOGGER.info("Registering ModBlocks for " + SoupsesMod.MOD_ID);
+        SoupsesMod.LOGGER.info("Registering ModBlocks for "+SoupsesMod.MOD_ID);
     }
 
 }
