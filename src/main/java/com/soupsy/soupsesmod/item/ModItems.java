@@ -11,7 +11,8 @@ public class ModItems {
     public static final Item CRYSTAL = registerItem("crystal",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
-
+    public static final Item RUBBER_BALL = registerItem("rubber_ball",
+            new Item(new FabricItemSettings().group(ItemGroup.COMBAT)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(SoupsesMod.MOD_ID, name), item);
