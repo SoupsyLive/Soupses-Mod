@@ -1,5 +1,6 @@
 package com.soupsy.soupsesmod;
 
+import com.soupsy.soupsesmod.block.ModBlocks;
 import com.soupsy.soupsesmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -13,6 +14,7 @@ public class SoupsesMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlock();
 
 		LOGGER.info("Hello Fabric world!");
 	}

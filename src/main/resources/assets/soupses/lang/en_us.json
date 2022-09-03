@@ -1,4 +1,7 @@
 {
   "item.soupses.crystal": "Crystal",
-  "item.soupses.rubber_ball": "Rubber Ball"
+  "item.soupses.rubber_ball": "Rubber Ball",
+  "item.soupses.soupses": "Soupses",
+  "block.soupses.crystal_block": "Crystal Block",
+  "itemGroup.soupses.soupses": "Soupses"
 }
